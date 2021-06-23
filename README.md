@@ -18,3 +18,5 @@ There are 294478 rows in the DataFrame, each representing a user session, as wel
 * `group` - Which group the user was assigned to for that session {control, treatment}
 * `landing_page` - Which design each user saw on that session {`old_page`, `new_page`}
 * `converted` - Whether the session ended in a conversion or not (binary, `0`=not converted, `1`=converted)
+
+!["df head"](df_head.png)
